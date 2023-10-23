@@ -1,4 +1,7 @@
 export const db = {
+  contact: "+1 (313) 727-2846",
+  email: "sales@watsonbroker.com",
+  address: "30 broklyn golden street. New york",
   home: {
     banner_image: "src/assets/bg-video-2.jpg",
     landing_title: "Welcome to WatsonBroker: Elevating Aviation Excellence",

@@ -42,7 +42,7 @@
         v-ripple
         class="bg-blue-500 shadow-blue-500 shadow py-5 px-8 rounded-full"
       >
-        Call +1 23211 2123123
+        Call {{ db.contact }}
       </button>
     </div>
   </div>

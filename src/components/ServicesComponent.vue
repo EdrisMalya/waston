@@ -9,10 +9,7 @@
     <div class="p-8 grid grid-cols-4 gap-8 mt-5">
       <div class="relative" v-for="srv in db.services.list" :key="srv.image">
         <q-img :src="srv.image" />
-        <div
-          class="w-[93%] p-5 absolute -bottom-24 bg-white shadow"
-          style="z-index: 999"
-        >
+        <div class="w-[93%] p-5 absolute -bottom-24 bg-white shadow">
           <div class="relative">
             <button class="p-3 bg-blue-400 text-white absolute right-0 -top-10">
               <q-icon name="chevron_right" size="sm" />

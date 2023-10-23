@@ -5,7 +5,8 @@
   <contact-us-component />
   <services-component />
   <parallex-component />
-  <div class="p-32"></div>
+  <customer-feedbaks />
+  <subescribe-component />
 </template>
 
 <script>
@@ -16,10 +17,14 @@ import AboutUsCardComponent from "components/AboutUsCardComponent.vue";
 import ContactUsComponent from "components/ContactUsComponent.vue";
 import ServicesComponent from "components/ServicesComponent.vue";
 import ParallexComponent from "components/ParallexComponent.vue";
+import CustomerFeedbaks from "components/CustomerFeedbaks.vue";
+import SubescribeComponent from "components/SubescribeComponent.vue";
 
 export default defineComponent({
   name: "IndexPage",
   components: {
+    SubescribeComponent,
+    CustomerFeedbaks,
     ParallexComponent,
     ServicesComponent,
     ContactUsComponent,
