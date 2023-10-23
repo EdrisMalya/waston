@@ -4,8 +4,30 @@
       <template v-slot:media>
         <img src="https://cdn.quasar.dev/img/parallax1.jpg" />
       </template>
-
-      <h1 class="text-white">Docks</h1>
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-4 gap-24 text-white">
+          <div
+            class="text-center"
+            v-for="customer in db.parallex.items"
+            :key="customer.name"
+          >
+            <q-icon :name="customer.icon" size="xl" />
+            <p class="text-xl">{{ customer.name }}</p>
+            <p class="text-3xl">{{ customer.number }}</p>
+          </div>
+        </div>
+      </div>
     </q-parallax>
   </div>
 </template>
+<script>
+import { db } from "assets/db";
+
+export default {
+  setup() {
+    return {
+      db,
+    };
+  },
+};
+</script>

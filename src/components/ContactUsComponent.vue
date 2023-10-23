@@ -1,5 +1,5 @@
 <template>
-  <q-intersection transition="jump-up">
+  <q-intersection>
     <div class="relative h-[100vh] mt-[220px]">
       <div
         class="absolute w-full h-full bg-blue-800"

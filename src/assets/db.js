@@ -75,4 +75,29 @@ export const db = {
       },
     ],
   },
+  parallex: {
+    image: "src/assets/parallex.jpg",
+    items: [
+      {
+        icon: "people",
+        name: "Total Customers",
+        number: 4244,
+      },
+      {
+        icon: "flight",
+        name: "Total Airplanes",
+        number: 3,
+      },
+      {
+        icon: "settings",
+        name: "Total Fixes",
+        number: 33,
+      },
+      {
+        icon: "map",
+        name: "Services in countries",
+        number: 33,
+      },
+    ],
+  },
 };
