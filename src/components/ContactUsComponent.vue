@@ -1,10 +1,10 @@
 <template>
-  <q-intersection>
-    <div class="relative h-[100vh] mt-[220px]">
+  <div data-aos="zoom-in" data-aos-duration="2000">
+    <div class="relative h-[100vh]" :class="marginTop">
       <div
         class="absolute w-full h-full bg-blue-800"
         style="
-          background-image: url('src/assets/globe.png');
+          background-image: url('/globe.png');
           background-position: center left;
           background-repeat: no-repeat;
           filter: brightness(40%);
@@ -60,5 +60,15 @@
         </div>
       </div>
     </div>
-  </q-intersection>
+  </div>
 </template>
+<script>
+export default {
+  props: {
+    marginTop: {
+      type: String,
+      default: () => "mt-[220px]",
+    },
+  },
+};
+</script>

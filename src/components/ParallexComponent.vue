@@ -2,7 +2,7 @@
   <div class="q-pa-md mt-[200px]">
     <q-parallax :height="200" :speed="0.5" class="rounded-xl">
       <template v-slot:media>
-        <img :src="db.parallex.image" />
+        <img src="/parallex.jpg" />
       </template>
       <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-4 gap-24 text-white">

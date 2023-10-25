@@ -1,7 +1,8 @@
 <template>
   <div
+    data-aos="flip-up"
     class="h-[120vh] bg-[#F7F6F0]"
-    style="background-image: url('src/assets/bg2.png')"
+    style="background-image: url('/bg2.png')"
   >
     <div class="pt-32">
       <p class="text-center text-xl text-blue-500 font-bold">
@@ -13,6 +14,8 @@
       <div class="max-w-5xl mt-24 mx-auto">
         <div class="grid grid-cols-2 gap-24">
           <div
+            data-aos="fade-right"
+            data-aos-duration="1500"
             class="p-12 bg-white border-l-[4px] border-blue-500 relative shadow-xl"
           >
             <div class="flex items-center">
@@ -20,7 +23,7 @@
                 class="w-[150px] h-[150px] absolute border rounded-full -ml-24 overflow-hidden shadow-xl"
                 style="z-index: 999"
               >
-                <q-img src="~assets/user.jpeg" class="w-full" />
+                <q-img src="/user.jpeg" class="w-full" />
               </div>
               <p class="text-xl text-gray-400 pl-24">
                 "The attention to detail and level of service provided by
@@ -54,6 +57,8 @@
             </div>
           </div>
           <div
+            data-aos="fade-left"
+            data-aos-duration="1500"
             class="p-12 bg-white border-l-[4px] border-blue-500 relative shadow-xl"
           >
             <div class="flex items-center">
@@ -61,7 +66,7 @@
                 class="w-[150px] h-[150px] absolute border rounded-full -ml-24 overflow-hidden shadow-xl"
                 style="z-index: 999"
               >
-                <q-img src="~assets/user.jpeg" class="w-full" />
+                <q-img src="/user.jpeg" class="w-full" />
               </div>
               <p class="text-xl text-gray-400 pl-24">
                 "Working with WatsonBroker was an absolute pleasure. Their

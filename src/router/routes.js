@@ -13,6 +13,11 @@ const routes = [
         component: () => import("pages/AboutUsPage.vue"),
         meta: { active: "/about-us" },
       },
+      {
+        path: "/contact",
+        component: () => import("pages/ContactPage.vue"),
+        meta: { active: "/contact" },
+      },
     ],
   },
 

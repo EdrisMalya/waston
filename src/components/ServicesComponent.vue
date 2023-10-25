@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-32">
+  <div class="mt-32" data-aos="fade-up" data-aos-duration="2000">
     <h2 class="text-center text-xl text-blue-400">
       {{ db.services.sm_title }}
     </h2>

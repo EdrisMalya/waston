@@ -2,7 +2,7 @@
   <div class="bg-[#A79132] h-[400px] relative">
     <div
       class="absolute w-full h-full"
-      style="background-image: url('src/assets/bg3.png'); z-index: 1"
+      style="background-image: url('/bg3.png'); z-index: 1"
     />
     <div class="max-w-6xl mx-auto px-12 py-24 grid grid-cols-2 gap-8">
       <div>

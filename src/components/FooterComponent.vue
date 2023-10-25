@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto">
       <div class="grid grid-cols-5 gap-16">
         <div class="col-span-2">
-          <q-img class="w-[150px] md:w-[200px] lg:w-[300px]" :src="db.logo" />
+          <q-img class="w-[150px] md:w-[200px] -mt-4" :src="db.logo" />
           <p class="text-white text-xl">
             "Discover excellence in aviation with WatsonBroker. From aircraft
             sales and inspections to custom interiors and financing solutions,
